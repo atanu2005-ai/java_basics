@@ -28,6 +28,7 @@ public class ptr1 {
             }
             System.out.println();
         }
+        sc.close();
     }
        
 }
