@@ -2,7 +2,7 @@ import java.util.*;
 public class kadanes {
     //calculate maximum sum using kadanes algorithm
     //key point: if(crr < 0) {crr = 0}
-    public static int kadanes(int[] arr) {
+    public static int maxsum(int[] arr) {
         int crr = 0;
         int max = Integer.MIN_VALUE;
         for(int i=0; i<arr.length; i++) {
@@ -21,7 +21,7 @@ public class kadanes {
         for(int i=0; i<num; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println(kadanes(arr));
+        System.out.println(maxsum(arr));
         sc.close();
     }
 }
